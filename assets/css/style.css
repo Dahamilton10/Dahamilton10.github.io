@@ -1,0 +1,158 @@
+#navigation{
+    float: right;
+}
+/* I dont understnd most of this list stuff for the nav bar I just took it from the w3school */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid grey;
+  }
+  
+  li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li:last-child {
+    border-right: none;
+  }
+#name-container{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+}
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    height: 60px;
+    width: 300px;
+    margin: 0px;
+    font-size: 32px;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+#main-content{
+    background-color: gray;
+    padding: 50px;
+    border: 1px solid grey;
+}
+h2{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #4aaaa5;
+    border-bottom: 2px solid grey;
+}
+#about-me{
+    background-color: white;
+    width: 960px;
+    padding: 50px;
+    margin-left: 100px;
+    line-height: 20px;   
+}
+#about-me-picture{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+#about-me-picture2{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#about-me-picture3{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#about-me-picture4{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#about-me-picture5{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#about-me-picture6{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+#index{
+    background-color: white;
+    width: 960px;
+    padding: 50px;
+    margin-left: 100px;
+    line-height: 20px;
+    overflow: auto;
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 32px;
+}
+/* I have no idea whats going on with these buttons and text inputs. I just took them off the w3school website and renamed a few things. I need to come back when we cover this stuff in class to see why it works like it does. */
+input[type="text"] {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  input[type="button"] {
+    width: 120px;
+    height: 35px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    color: white;
+    display: block;
+  }
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    resize: none;
+  }
+footer{
+    border-top:10px solid #4aaaa5;
+    background-color: #666666;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 75px;
+}
